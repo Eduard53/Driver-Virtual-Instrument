@@ -40,6 +40,13 @@ Obtain stable weight - `S`
     $ Sending Command: Send stable weight value
     $ S S    102.3 g
 ```
+
+Executing an invalid command `x`
+```bash
+    $ Please enter valid command.
+    ...Listening...
+    $ Recieved: [0x78] is "x"
+```
 	
 ### Dependencies
 Dependencies are located in the modules folder
