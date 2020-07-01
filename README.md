@@ -1,6 +1,5 @@
 # Driver-Virtual-Instrument
-## Driver and Virtual Instrument CLI
-## Installation
+## Execute
 ### Linux / Mac from a Terminal Window:
 ```bash
 $ node driver.js
@@ -10,7 +9,8 @@ or (in labforward_cli directory)
 $ driver
 ``` 
 Follow the instructions presented within the CLI
-<ENTER PICTURES HERE>
+![alt text](https://github.com/Eduard53/Driver-Virtual-Instrument/blob/master/CLI.png)
+
 	
 ### Commands
 ```bash
@@ -54,4 +54,4 @@ To run the unit tests, be sure to be in the directory of 'labforward_cli' and ru
 ```bash
 $ npm test
 ```
-<Enter Pictures HERE>
+![alt text](https://github.com/Eduard53/Driver-Virtual-Instrument/blob/master/JEST.png)
