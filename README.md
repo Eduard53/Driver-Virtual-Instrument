@@ -16,11 +16,29 @@ Follow the instructions presented within the CLI
 
 	
 ### Commands
+Display device information - `I`
 ```bash
-	help, h		Dispaly help menu
-	I		Display device information
-	S		Obtain stable weight
-	end, quit, q	Quit the process
+    $ --- Device Information ---
+    - Manufacturer: LABFORWARD
+    - Model: LF-Balance
+    - S/N: 0348-3829
+    - Info: Max weight: 1000g  d:0.01g
+```
+
+Dispaly help menu - `help | h`
+```bash
+    $ --- Help menu ---
+    $ Valid commands include:
+    - [S] = obtain stable weight
+    - [help | h] = bring up this help menu
+    - [end | q | quit] = terminate the process
+    - [I] = display device information
+```
+
+Obtain stable weight - `S`
+```bash
+    $ Sending Command: Send stable weight value
+    $ S S    102.3 g
 ```
 	
 ### Dependencies
@@ -43,7 +61,7 @@ input value that is received will be converted to a hexadecimal `0x` value and d
 according to the documentation for the command. e.g:
 ```bash
 S I   (Command not executable)
-S S   ---.-- g (stable weight)
+S S   102.03 g (stable weight)
 S +   (Balance in overload range)
 S -   (Balance in underload range)
 ```
