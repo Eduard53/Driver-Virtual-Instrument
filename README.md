@@ -1,5 +1,7 @@
 # Driver-Virtual-Instrument
 ## Execute
+### Download
+[CLI Client zip](../master/labforward_cli.zip?raw=true)
 ### Linux / Mac from a Terminal Window:
 ```bash
 $ node driver.js
@@ -9,7 +11,8 @@ or (in labforward_cli directory)
 $ driver
 ``` 
 Follow the instructions presented within the CLI
-![alt text](https://github.com/Eduard53/Driver-Virtual-Instrument/blob/master/CLI.png)
+
+<img src="https://github.com/Eduard53/Driver-Virtual-Instrument/blob/master/CLI.png" width="700">
 
 	
 ### Commands
@@ -29,7 +32,7 @@ Dependencies are located in the modules folder
 
 The project is completed to the standard of the documentation provided by illustrating the following requirements.
 
-The driver.js (parent) is the primary driver file for communicating asynchronously with the virtual_instrument.js (child) virtual balance in this instance.
+The `driver.js` (parent) is the primary driver file for communicating asynchronously with the virtual_instrument.js (child) virtual balance in this instance.
 This is done by creating a new child object using the '.fork' which is an asynchronous communication Inter Process Communication (IPC) stream. Commands can 
 be sent via running the main node driver.js. The driver sends a message to the child (virtual_instrument.js) which then randomly simulates a result. 
 The driver.js is an interactive Command Line Interface (CLI) whereby, the user can dynamically enter commands and interact with the virtual instrument. 
@@ -54,4 +57,4 @@ To run the unit tests, be sure to be in the directory of 'labforward_cli' and ru
 ```bash
 $ npm test
 ```
-![alt text](https://github.com/Eduard53/Driver-Virtual-Instrument/blob/master/JEST.png)
+<img src="https://github.com/Eduard53/Driver-Virtual-Instrument/blob/master/JEST.png" width="240">
