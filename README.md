@@ -66,12 +66,12 @@ S +   (Balance in overload range)
 S -   (Balance in underload range)
 ```
 The virtual instrument is also responsible for logging and recording the results 
-obtained from a successful reading of the balance to a text file.
+obtained from a successful reading of the balance to a text file `s_s_log.txt`.
 
 ## Unit Tests
 
 Unit tests have also been performed on a few of the functions utilising JEST. 
-To run the unit tests, be sure to be in the directory of 'labforward_cli' and run:
+To run the unit tests, be sure to be in the root directory of `labforward_cli` and run:
 ```bash
 $ npm test
 ```
