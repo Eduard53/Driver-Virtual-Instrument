@@ -41,7 +41,7 @@ Obtain stable weight - `S`
     $ S S    102.3 g
 ```
 
-Executing an invalid command `x`
+Executing an invalid command - `x`
 ```bash
     $ Please enter valid command.
     ...Listening...
